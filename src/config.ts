@@ -14,7 +14,7 @@ export interface Proxy {
 let PROXYS: Proxy[] = [
     {
         domain: "fork-easy-reverse-proxy.vercel.app",
-        url: "https://www.google.com",
+        url: "https://www.google.com/",
         enable: true
     }
 ]
