@@ -1,4 +1,4 @@
-export let PORT = 370; // 端口
+export let PORT = 9600; // 端口
 
 export interface Proxy {
     domain: string;
@@ -13,8 +13,8 @@ export interface Proxy {
 // 代理
 let PROXYS: Proxy[] = [
     {
-        domain: "https://fork-easy-reverse-proxy.vercel.app/",
-        url: "https://www.google.com/",
+        domain: "fork-easy-reverse-proxy.vercel.app",
+        url: "https://www.google.com",
         enable: true
     }
 ]
