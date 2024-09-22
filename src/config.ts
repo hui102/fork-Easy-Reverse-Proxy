@@ -13,7 +13,7 @@ export interface Proxy {
 // 代理
 let PROXYS: Proxy[] = [
     {
-        domain: "daili.yinyue.v6.rocks",
+        domain: "fork-easy-reverse-proxy.vercel.app",
         url: "https://www.google.com/",
         enable: true
     }
