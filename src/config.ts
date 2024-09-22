@@ -13,8 +13,13 @@ export interface Proxy {
 // 代理
 let PROXYS: Proxy[] = [
     {
-        domain: "fork-easy-reverse-proxy.vercel.app",
-        url: "https://www.google.com/",
+        domain: "www.example1.com",
+        url: "https://www.microsoft.com/",
+        enable: true
+    },
+    {
+        domain: "www.example2.com",
+        url: "https://github.com/",
         enable: true
     }
 ]
