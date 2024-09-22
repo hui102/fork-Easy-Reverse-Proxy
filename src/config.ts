@@ -11,4 +11,10 @@ export interface Proxy {
 }
 
 // 代理
-export let PROXYS = [];
+let PROXYS: Proxy[] = [
+    {
+        domain: "www.example1.com",
+        url: "https://www.google.com/",
+        enable: true
+    }
+]
