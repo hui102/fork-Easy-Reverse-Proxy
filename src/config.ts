@@ -13,7 +13,7 @@ export interface Proxy {
 // 代理
 let PROXYS: Proxy[] = [
     {
-        domain: "www.example1.com",
+        domain: "daili.yinyue.v6.rocks",
         url: "https://www.google.com/",
         enable: true
     }
